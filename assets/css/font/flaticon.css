@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?24f51e3102535dcb480a2c24b85d743b") format("truetype"),
+url("./flaticon.woff?24f51e3102535dcb480a2c24b85d743b") format("woff"),
+url("./flaticon.woff2?24f51e3102535dcb480a2c24b85d743b") format("woff2"),
+url("./flaticon.eot?24f51e3102535dcb480a2c24b85d743b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?24f51e3102535dcb480a2c24b85d743b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-facebook:before {
+    content: "\f101";
+}
+.flaticon-instagram:before {
+    content: "\f102";
+}
+.flaticon-location:before {
+    content: "\f103";
+}
+.flaticon-email:before {
+    content: "\f104";
+}
+.flaticon-list:before {
+    content: "\f105";
+}
+.flaticon-telegram:before {
+    content: "\f106";
+}
+.flaticon-navigation:before {
+    content: "\f107";
+}
+.flaticon-check:before {
+    content: "\f108";
+}
+.flaticon-play-button:before {
+    content: "\f109";
+}
+.flaticon-play:before {
+    content: "\f10a";
+}
+.flaticon-suitcase:before {
+    content: "\f10b";
+}
+.flaticon-mouse:before {
+    content: "\f10c";
+}
+.flaticon-mouse-1:before {
+    content: "\f10d";
+}

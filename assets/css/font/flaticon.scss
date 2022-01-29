@@ -1,0 +1,77 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?24f51e3102535dcb480a2c24b85d743b") format("truetype"),
+url("./flaticon.woff?24f51e3102535dcb480a2c24b85d743b") format("woff"),
+url("./flaticon.woff2?24f51e3102535dcb480a2c24b85d743b") format("woff2"),
+url("./flaticon.eot?24f51e3102535dcb480a2c24b85d743b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?24f51e3102535dcb480a2c24b85d743b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "facebook": "\f101",
+    "instagram": "\f102",
+    "location": "\f103",
+    "email": "\f104",
+    "list": "\f105",
+    "telegram": "\f106",
+    "navigation": "\f107",
+    "check": "\f108",
+    "play-button": "\f109",
+    "play": "\f10a",
+    "suitcase": "\f10b",
+    "mouse": "\f10c",
+    "mouse-1": "\f10d",
+);
+
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-list:before {
+    content: map-get($flaticon-map, "list");
+}
+.flaticon-telegram:before {
+    content: map-get($flaticon-map, "telegram");
+}
+.flaticon-navigation:before {
+    content: map-get($flaticon-map, "navigation");
+}
+.flaticon-check:before {
+    content: map-get($flaticon-map, "check");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-play:before {
+    content: map-get($flaticon-map, "play");
+}
+.flaticon-suitcase:before {
+    content: map-get($flaticon-map, "suitcase");
+}
+.flaticon-mouse:before {
+    content: map-get($flaticon-map, "mouse");
+}
+.flaticon-mouse-1:before {
+    content: map-get($flaticon-map, "mouse-1");
+}
